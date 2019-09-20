@@ -9,3 +9,5 @@ The following repository is basically used to connect our Flask Webservice that 
 6) You will see the predictions on the Result Page
 7) Click on "View all the results so far"
 8) You shall be redirected to list.html where the DB values shall be retrieved
+
+
