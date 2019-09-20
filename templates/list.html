@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html>
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styling.css') }}">
+
+   <body>
+      <table >
+         <thead>
+            <td>Text</td>
+            <td>IS_FITARA</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row.doc}}</td>
+               <td>{{row.prediction}}</td>
+	
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+   </body>
+</html>

@@ -1,0 +1,31 @@
+body{
+	margin-top: 100px;
+	color: white;
+	background-image:url('../../static/images/b.png')
+}
+.page1div{
+ height: 300px;width: 100%;margin-top: -100px ;margin-bottom: 0px}
+}
+.divi{
+color: white; text-align: center;padding-top: 150px;
+}
+.big{
+	padding: 50px
+}
+h3{
+	color:white;
+}
+ th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+table{
+	margin-left:40%;text-align:center;border = 1s style="border-collapse: collapse;
+  width: 100%;color: white
+}
+div,a{
+	color: white
+}
+.result{text-align: center;font-size: 20px}
+.resultA{margin-right: 30px}

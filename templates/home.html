@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Ml Flask</title>
+
+ 	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styling.css') }}">
+	
+
+</head>
+<body >
+
+ 
+ 	 <div align="center" class="pag1div" style="">
+     		<h1 class="divi">FITARA PREDICATION</h1>
+     </div>	
+
+	 <div class="big" align="center" >  		
+	  		<form action=" http://127.0.0.1:5000/add" method="POST">
+	   				<h3 >Enter Your comment Here</h3>
+					<textarea name="comment" rows="4" cols="50"></textarea>
+	 			     <br>
+	 			     <select name="algo">
+	 	    			<option value="NB">Naive Bayes</option>
+	 			     	<option value="AI">LSTM</option>
+	 			     	
+	 			     </select>
+	 			     <br><br>
+
+	  				 <input type="submit" name="submit_button" value="Submit" class="btn btn-info">
+	  		
+			</form>
+	 </div>
+</body>
+</html>
+
